@@ -66,3 +66,19 @@
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
+.about-us-header p {
+    font-size: 14px;
+    color: #919191;
+}
+
+.about-us .about-btn {
+    color: #2487CD;
+    border: 2px solid #2487ce;
+    font-size: 12px;
+}
+
+.about-btn:hover {
+    background-color: #2487CD;
+    color: white;
+}
