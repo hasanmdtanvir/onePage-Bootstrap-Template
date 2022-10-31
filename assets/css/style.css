@@ -58,3 +58,11 @@
 .service-card:hover .card-title {
     color: #2487CD;
 }
+
+.common-title {
+    color: #124265;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
