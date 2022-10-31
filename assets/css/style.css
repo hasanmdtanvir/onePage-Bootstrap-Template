@@ -1,0 +1,60 @@
+.nav-toggle {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background: transparent;
+    /* background-color: red; */
+}
+
+.nav-toggle svg {
+    fill: #4F5D74;
+    width: 25px;
+    height: 25px;
+}
+
+.nav-toggle[aria-expanded="true"] {
+    background-color: red;
+}
+
+.nav-link {
+    color: #124265;
+}
+
+.nav-link:is(.active, :hover) {
+    color: #2487CD !important;
+}
+
+.hero-section {
+    background-image: url(https://bootstrapmade.com/demo/templates/OnePage/assets/img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-block: 150px;
+}
+
+.service-card {
+    box-shadow: 0 5px 20px rgba(18, 66, 101, 0.1) !important;
+    transition: 300ms ease-out;
+}
+
+.service-card:hover {
+    scale: 1.1;
+}
+
+.service-card .service-icon {
+    color: #2487CD;
+}
+
+.service-card .card-title {
+    color: #124265;
+    transition: 300ms ease-out;
+}
+
+.service-card:hover .card-title {
+    color: #2487CD;
+}
