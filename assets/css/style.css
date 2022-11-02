@@ -82,3 +82,78 @@
     background-color: #2487CD;
     color: white;
 }
+
+.about-info .count span {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #124265;
+}
+
+.about-info .count p {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1e6ca6;
+}
+
+.about-info {
+    background-color: #f8fbfe;
+
+}
+
+.about-info .count {
+    padding-block: 80px;
+}
+
+.about-video .col h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #124265;
+}
+
+.play-btn {
+    position: absolute;
+    display: block;
+    background: #2487ce;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+    outline: 15px solid rgba(36, 135, 206, 0.4);
+}
+
+.play-btn i {
+    color: white;
+    font-size: 30px;
+}
+
+.about-video {
+    margin-block: 100px;
+}
+
+.section-bg {
+    background-color: #f8fbfe;
+}
+
+.clients {
+    padding-block: 30px;
+    text-align: center;
+}
+
+.clients-name {
+    max-width: 45%;
+    transition: all 0.4s ease-in-out;
+    display: inline-block;
+    /* padding: 15px 0; */
+    filter: grayscale(100);
+
+}
+
+.clients-name:hover {
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
