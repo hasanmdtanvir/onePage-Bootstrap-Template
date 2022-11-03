@@ -157,3 +157,160 @@
     transform: scale(1.2);
     filter: grayscale(0);
 }
+
+.testimonial-section {
+    margin-block: 100px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #124265;
+}
+
+.section-title p {
+    /* margin-bottom: 0; */
+    font-size: 14px;
+    color: #919191;
+}
+
+.fa-quote-left {
+    display: inline-block;
+    font-size: 26px;
+    left: -5px;
+    position: relative;
+    color: #C9E3F5;
+}
+
+.fa-quote-right {
+    display: inline-block;
+    font-size: 26px;
+    left: 5px;
+    top: 10px;
+    position: relative;
+    color: #C9E3F5;
+}
+
+
+.testimonial-item p {
+    font-style: italic;
+    margin: 0 15px 15px 15px;
+    padding: 20px;
+    background: #f3f9fd;
+    position: relative;
+    margin-bottom: 35px;
+    border-radius: 6px;
+}
+
+.testimonial-item {
+    /* background-color: #f3f9fd; */
+    text-align: center;
+}
+
+.testimonial-item p::after {
+    content: "";
+    border-top: 20px solid #f3f9fd;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 20px);
+}
+
+.testimonial-img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.testimonial-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #111;
+}
+
+.testimonial-item h4 {
+    font-size: 14px;
+    color: #999;
+    /* margin: 0; */
+}
+
+.service-card-title {
+    color: #124265;
+}
+
+.icon-card {
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 5%);
+}
+
+.cta {
+    background-color: #2487ce;
+    padding-block: 60px;
+}
+
+.cta-btn {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 5px;
+    transition: .5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta-btn:hover {
+    background-color: #fff;
+    color: #2487ce;
+    border: none;
+}
+
+.portfolio-nav .nav-item .nav-link:is(.active, :hover) {
+    color: #2487ce;
+}
+
+.team-section {
+    margin-block: 100px;
+    padding-block: 100px;
+}
+
+.member-img .social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member:hover .social {
+    opacity: 1;
+}
+
+.member-img .social a {
+    transition: color 0.3s;
+    color: #124265;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.member-img .social a:hover {
+    color: #2487ce;
+}
