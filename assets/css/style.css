@@ -314,3 +314,124 @@
 .member-img .social a:hover {
     color: #2487ce;
 }
+
+/* pricing section  */
+
+.box {
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    /* position: relative; */
+    /* overflow: hidden; */
+    background: #fefefe;
+    box-shadow: 0px 5px 90px 0px rgb(110 123 131 / 10%);
+}
+
+.box h3 {
+    font-weight: 400;
+    padding: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #124265;
+}
+
+.box h4 {
+    font-size: 42px;
+    color: #2487ce;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 20px;
+}
+
+.box h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.box ul {
+    padding: 0;
+    list-style: none;
+    color: #124265;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.box ul li {
+    padding-bottom: 16px;
+}
+
+.box ul .na {
+    color: #bababa;
+
+}
+
+.btn-buy {
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 4px;
+    color: #2487ce;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 2px solid #2487ce;
+    text-decoration: none;
+}
+
+.btn-buy:hover {
+    background-color: #2487ce;
+    color: #fff;
+}
+
+.btn-wrap {
+    padding: 15px;
+    text-align: center;
+}
+
+.middle-box {
+    background-color: #2487ce;
+}
+
+.middle-box.box>* {
+    color: white;
+}
+
+.middle-box.box .btn-buy {
+    color: white;
+    border: 2px solid #fff;
+}
+
+.middle-box .btn-buy:hover {
+    background-color: #fff;
+    color: #2487ce;
+}
+
+/* QA section  */
+.QA-section {
+    margin-block: 100px;
+}
+
+.QA-section .container {
+    padding-block: 100px;
+}
+
+.accordion-button:is([aria-expanded="true"], :hover) .qa {
+    color: #2487ce !important;
+    /* background-color: red; */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    border: transparent !important;
+    box-shadow: none;
+    padding-bottom: 0;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
